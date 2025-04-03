@@ -1,13 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --clr-gray-100: #F8F9FA;
+  --clr-gray-200: #E9ECEF;
+  --clr-gray-300: #DEE2E6;
+  --clr-gray-400: #CED4DA;
+  --clr-gray-500: #ADB5BD;
+  --clr-gray-600: #6C757D;
+  --clr-gray-700: #495057;
+  --clr-gray-800: #343A40;
+  --clr-gray-850: #292f33;
+  --clr-gray-900: #212529;
+}
+
 html, body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 1rem !important;
   -webkit-font-smoothing: antialiased;
+}
+
+.divider {
+  border-top: 1px solid var(--clr-gray-200);
 }
 
 @media (min-width: 1200px) {
